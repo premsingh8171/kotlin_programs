@@ -117,6 +117,28 @@ Unexpected tokens (use ';' to separate expressions on the same line)
 Result wil be get Cannot inherit from a singleton
 ```
 
+8. What is the output of below code?
+```kotlin
+>     fun main(args: Array<String>){
+>     var value = greater(16,81)
+>     println(value)
+>     }
+>     
+>     fun greater(a:Int, b:Int):Int = if(a>b){
+>     println("$a is greater")
+>     a
+>     679
+>     }else{
+>     println("$b is greater")
+>     b
+>     123
+>     }
+
+Output: 
+81 is greater
+123
+
+```
     
     
     
