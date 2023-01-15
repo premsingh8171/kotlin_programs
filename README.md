@@ -1,6 +1,7 @@
 # kotlin_programs]
 
 1. What will be the output?
+```kotlin
 >     class Sample{
 >     fun add(a:Int, b:Int,sum:(Int, Int)->Int){
 >     var res = sum(a,b)
@@ -12,11 +13,12 @@
 >     var sample = Sample()
 >         sample.add(6,8,{a,b -> a+b})   
 >     }
-
 > Output:Result is 14
+```
 
 
 2. What will be the output?
+```kotlin
 >     fun main() {
 >     var nums = listOf<Int>(1,6,8,9,6,8)
 >     nums[1] = 5
@@ -33,34 +35,43 @@ Unexpected tokens (use ';' to separate expressions on the same line)
 Unresolved reference: x
   
 > **It means  result wil be Compile-Time Error**
-  
+```  
 
 3. What will be the output?
-  
-> >     fun main() {
+```kotlin  
+>      fun main() {
 >     val words = listOf("kotlin", "cobol", "android", "pascal", "python", "swift", "flutter")
 >     val byLenght = words.groupBy{it.length}
 >     println(byLenght)
 >     }
 
 > Output:Result is  {6=[kotlin, pascal, python], 5=[cobol, swift], 7=[android, flutter]}
-  
+``` 
   
  3. look the below code
->     fun main() {                              //line 1
->     var num1 = 3                              //line 2
->     outer@ while(num1>0){                     //line 3
->     var num2 = 3                              //line 4
->     inner@ while(num2>0){                     //line 5
->     if(num1 ==2)                              //line 6
->     // do one statement                       //line 7
->    // break@outer
->     println("num1 = $num1, num2 = $num2")     //line 8
->     num2--                                    //line 9
->     }                                         //line 10
->     num1--                                    //line 11
->     }                                         //line 12
->     }                                         //line 13
-
-  
->
+```kotlin  
+    var num1 = 3
+    outer@ while(num1>0){
+    var num2 = 3
+    inner@ while(num2>0){
+    if(num1 ==2)
+    // do one statement
+    //break@outer
+    println("num1 = $num1, num2 = $num2")
+    num2--
+    }
+    num1--
+    }
+    
+    Which of the folowing options should be placed in Line 7 to get the below output?
+    output: 
+    num1 =3, num2=3
+    num1 =3, num2=2
+    num1 =3, num2=1
+    
+ Options:
+ 1. break
+ 2. break@outer
+ 3. break@inner
+ 4. Compiler-Time Error
+```
