@@ -33,3 +33,14 @@ Unexpected tokens (use ';' to separate expressions on the same line)
 Unresolved reference: x
   
 > **It means  result wil be Compile-Time Error**
+  
+
+3. What will be the output?
+  
+> >     fun main() {
+>     val words = listOf("kotlin", "cobol", "android", "pascal", "python", "swift", "flutter")
+>     val byLenght = words.groupBy{it.length}
+>     println(byLenght)
+>     }
+
+> Output:Result is  {6=[kotlin, pascal, python], 5=[cobol, swift], 7=[android, flutter]}
