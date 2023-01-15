@@ -48,7 +48,7 @@ Unresolved reference: x
 > Output:Result is  {6=[kotlin, pascal, python], 5=[cobol, swift], 7=[android, flutter]}
 ``` 
   
- 4. look the below code
+ 4. Look the below code
 ```kotlin  
     >     var num1 = 3
 >         outer@ while(num1>0){
@@ -63,11 +63,11 @@ Unresolved reference: x
 >         num1--
 >         }
     
-    Which of the folowing options should be placed in Line 7 to get the below output?
-    output: 
-    num1 =3, num2=3
-    num1 =3, num2=2
-    num1 =3, num2=1
+Which of the folowing options should be placed in Line 7 to get the below output?
+ output: 
+ num1 =3, num2=3
+ num1 =3, num2=2
+ num1 =3, num2=1
     
  Options:
  1. break
@@ -90,7 +90,7 @@ Null can not be a value of a non-null type String
 > So the result will be Compile-Time Error
 ```
 
-6.Which of the below Line number will cause a compile time error, when this code is executed?
+6. Which of the below Line number will cause a compile time error, when this code is executed?
 
 ```kotlin
 > fun main() {
@@ -105,7 +105,7 @@ Unexpected tokens (use ';' to separate expressions on the same line)
 Unexpected tokens (use ';' to separate expressions on the same line)
 
 ```
-7.What is the error of below code?
+7. What is the error of below code?
 
 ```kotlin
 >     class Test: EmpData{}
@@ -160,7 +160,7 @@ Got the Test Exception
 Inside finally block
 ```
 
-10. what will be the output?
+10. What will be the output?
 
 ```kotlin
 >     fun main(args: Array<String>){
