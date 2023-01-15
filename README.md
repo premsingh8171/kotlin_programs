@@ -50,18 +50,18 @@ Unresolved reference: x
   
  4. look the below code
 ```kotlin  
-    var num1 = 3
-    outer@ while(num1>0){
-    var num2 = 3
-    inner@ while(num2>0){
-    if(num1 ==2)
-    // do one statement
-    //break@outer
-    println("num1 = $num1, num2 = $num2")
-    num2--
-    }
-    num1--
-    }
+    >     var num1 = 3
+>         outer@ while(num1>0){
+>         var num2 = 3
+>         inner@ while(num2>0){
+>         if(num1 ==2)
+>         // do one statement
+>         //break@outer
+>         println("num1 = $num1, num2 = $num2")
+>         num2--
+>         }
+>         num1--
+>         }
     
     Which of the folowing options should be placed in Line 7 to get the below output?
     output: 
@@ -75,3 +75,18 @@ Unresolved reference: x
  3. break@inner
  4. Compiler-Time Error
 ```
+
+
+5. ff
+```kotlin
+>     fun main() {
+>     var greed: String = "Hello All"
+>     greed = null
+>     println(greed)
+>     }
+
+Null can not be a value of a non-null type String
+> So the result will be Compile-Time Error
+```
+    
+    
