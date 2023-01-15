@@ -48,7 +48,7 @@ Unresolved reference: x
 > Output:Result is  {6=[kotlin, pascal, python], 5=[cobol, swift], 7=[android, flutter]}
 ``` 
   
- 3. look the below code
+ 4. look the below code
 ```kotlin  
     var num1 = 3
     outer@ while(num1>0){
