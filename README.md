@@ -44,3 +44,23 @@ Unresolved reference: x
 >     }
 
 > Output:Result is  {6=[kotlin, pascal, python], 5=[cobol, swift], 7=[android, flutter]}
+  
+  
+ 3. look the below code
+>     fun main() {                              //line 1
+>     var num1 = 3                              //line 2
+>     outer@ while(num1>0){                     //line 3
+>     var num2 = 3                              //line 4
+>     inner@ while(num2>0){                     //line 5
+>     if(num1 ==2)                              //line 6
+>     // do one statement                       //line 7
+>    // break@outer
+>     println("num1 = $num1, num2 = $num2")     //line 8
+>     num2--                                    //line 9
+>     }                                         //line 10
+>     num1--                                    //line 11
+>     }                                         //line 12
+>     }                                         //line 13
+
+  
+>
