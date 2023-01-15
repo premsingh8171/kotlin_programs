@@ -77,7 +77,8 @@ Unresolved reference: x
 ```
 
 
-5. ff
+5. What will be the output? when the below code is executed?
+
 ```kotlin
 >     fun main() {
 >     var greed: String = "Hello All"
