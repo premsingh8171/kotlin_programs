@@ -166,7 +166,7 @@ Inside finally block
 >     fun main(args: Array<String>){
 >     var emp1 = Employee(12221, "Ramesh")
 >     println("*****************************")
->     var emp2 = Employee(12221, "Arjun", "Chennai")
+>     var emp2 = Employee(12343, "Arjun", "Chennai")
 >     }
 >     
 >     class Employee(id:Long,name:String){
@@ -183,13 +183,15 @@ Inside finally block
 >     }
 >     }
 
+
+
 Output:
 Inside Init
 Id is 1223 and Name is Vimal
 *****************************
 Inside Init
 Id is 1223 and Name is Vimal
-Id is 12221 and Name is Arjun and DC is Chennai
+Id is 12343 and Name is Arjun and DC is Chennai
 ```
 
     
