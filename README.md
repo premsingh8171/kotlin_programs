@@ -139,6 +139,24 @@ Output:
 123
 
 ```
+ 
+ 9. What will be the output?
+```kotlin
+>     class Test : Exception()
+>     fun main(args: Array<String>){
+>     try{
+>     throw Test()
+>     }
+>     catch(e: Exception){
+>     println("Got the Test Exception")
+>     }
+>     finally{
+>     println("Inside finally block")
+>     }
+>     }
     
-    
+Output:
+Got the Test Exception
+Inside finally block
+```
     
