@@ -105,7 +105,18 @@ Unexpected tokens (use ';' to separate expressions on the same line)
 Unexpected tokens (use ';' to separate expressions on the same line)
 
 ```
-    
+7.What is the error of below code?
+
+```kotlin
+>     class Test: EmpData{}
+>     object EmpData{}
+>     fun main(args: Array<String>){
+>     var sampleText = Test()
+>     }
+
+Result wil be get Cannot inherit from a singleton
+```
+
     
     
     
