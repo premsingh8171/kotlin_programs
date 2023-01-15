@@ -89,5 +89,23 @@ Unresolved reference: x
 Null can not be a value of a non-null type String
 > So the result will be Compile-Time Error
 ```
+
+6.Which of the below Line number will cause a compile time error, when this code is executed?
+
+```kotlin
+> fun main() {
+> val y: MyClass<Any> MyClass<String>("Harshini") //line 1 here
+> val z: MyClass<String> MyClass<Any>(10.00)     //line 2
+> } 
+> class MyClass<out T>(val value: T)
+
+After run this code we will get below error
+
+Unexpected tokens (use ';' to separate expressions on the same line)
+Unexpected tokens (use ';' to separate expressions on the same line)
+
+```
+    
+    
     
     
