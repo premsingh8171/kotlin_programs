@@ -159,4 +159,38 @@ Output:
 Got the Test Exception
 Inside finally block
 ```
+
+10. what will be the output?
+
+```kotlin
+>     fun main(args: Array<String>){
+>     var emp1 = Employee(12221, "Ramesh")
+>     println("*****************************")
+>     var emp2 = Employee(12221, "Arjun", "Chennai")
+>     }
+>     
+>     class Employee(id:Long,name:String){
+>     var eid:Long = 0
+>     lateinit var ename:String
+>     init{
+>     println("Inside Init")
+>     eid = 1223
+>     ename = "Vimal"
+>     println("Id is $eid and Name is $ename")
+>     }
+>     constructor(id:Long, name:String, dc:String):this(id, name){
+>     println("Id is $id and Name is $name and DC is $dc")
+>     }
+>     }
+
+Output:
+Inside Init
+Id is 1223 and Name is Vimal
+*****************************
+Inside Init
+Id is 1223 and Name is Vimal
+Id is 12221 and Name is Arjun and DC is Chennai
+```
+
+    
     
